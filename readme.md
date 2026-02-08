@@ -150,6 +150,16 @@ CREATE TABLE final_cleaned_data (
 pip install -r requirements.txt
 ```
 
+### (Optional) Create & activate a virtual environment
+It's recommended to use a virtual environment. On Linux run:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+# install dependencies inside the venv
+pip install -r requirements.txt
+# when finished:
+deactivate
+```
 ### Step 2: Configure Database
 ```bash
 # Create PostgreSQL database
