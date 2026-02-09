@@ -124,11 +124,11 @@ dmypy.json
 
 # Project-Specific Ignores
 # Raw data (large files)
-data/raw/**/*.csv
-data/raw/**/*.xlsx
-data/raw/**/*.xls
-data/raw/**/api_responses/
-!data/raw/.gitkeep
+# data/raw/**/*.csv
+# data/raw/**/*.xlsx
+# data/raw/**/*.xls
+# data/raw/**/api_responses/
+# !data/raw/.gitkeep
 
 # Processed data (generated)
 data/processed/**/*
