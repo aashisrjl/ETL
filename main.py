@@ -4,6 +4,7 @@ from etl.load import load_data
 
 
 def run_etl():
+
     # 1. Extract
     df_bookings, df_grounds, df_users = extract_data()
 
