@@ -1,30 +1,30 @@
 # Core Data Processing Libraries
-pandas==2.0.3
-numpy==1.24.3
+pandas
+numpy
 
 # Database Connectivity
-psycopg2-binary==2.9.7
-SQLAlchemy==2.0.21
+psycopg2-binary
+SQLAlchem
 
 # API Requests
-requests==2.31.0
+requests
 
 # Excel File Processing
-openpyxl==3.1.2
-xlrd==2.0.1
+openpyxl
+xlrd
 
 # Environment Variables
-python-dotenv==1.0.0
+python-dotenv
 
 # Data Validation & Type Checking
-marshmallow==3.20.1
-pydantic==2.3.0
+marshmallow
+pydantic
 
 # Logging & Monitoring
-python-json-logger==2.0.7
+python-json-logger
 
 # Date/Time Handling
-pytz==2023.3
+pytz
 
 # CSV Processing (included with pandas, but explicit)
 # csv module is built-in
@@ -37,11 +37,11 @@ pytz==2023.3
 # APScheduler==3.10.4
 
 # Development & Testing
-pytest==7.4.0
-pytest-cov==4.1.0
-black==23.9.1
-flake8==6.1.0
-pylint==3.0.0
+pytes
+pytest-cov
+black
+flake8
+pylint
 
 # Jupyter Notebook (Optional for Analysis)
 # jupyter==1.0.0
