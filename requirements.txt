@@ -1,10 +1,18 @@
+<<<<<<< HEAD
+# Core Data Processing Libraries
+=======
 
+>>>>>>> 8d35ef225ba71b82687fe5a561d95fa7eb347e5f
 pandas
 numpy
 
 # Database Connectivity
 psycopg2-binary
+<<<<<<< HEAD
+SQLAlchem
+=======
 SQLAlchemy
+>>>>>>> 8d35ef225ba71b82687fe5a561d95fa7eb347e5f
 
 # API Requests
 requests
@@ -20,6 +28,11 @@ python-dotenv
 marshmallow
 pydantic
 
+<<<<<<< HEAD
+# Logging & Monitoring
+python-json-logger
+=======
+>>>>>>> 8d35ef225ba71b82687fe5a561d95fa7eb347e5f
 
 # Date/Time Handling
 pytz
@@ -30,7 +43,11 @@ pytz
 # APScheduler==3.10.4
 
 # Development & Testing
+<<<<<<< HEAD
+pytes
+=======
 pytest
+>>>>>>> 8d35ef225ba71b82687fe5a561d95fa7eb347e5f
 pytest-cov
 black
 flake8
