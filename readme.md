@@ -170,6 +170,32 @@ psql -U postgres
 CREATE DATABASE etl_warehouse;
 ```
 
+### Run the schema file (db/schema.sql)
+
+Use one of the following methods to apply the SQL schema to your PostgreSQL database. Run these from the project root and replace placeholders with your values.
+
+- Using `psql` with explicit connection parameters:
+```bash
+psql -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME -f db/schema.sql
+```
+
+- Using a full connection URL:
+```bash
+psql postgresql://$DB_USER:$DB_PASSWORD@$DB_HOST:$DB_PORT/$DB_NAME -f db/schema.sql
+```
+
+- If you prefer not to put the password in the URL, use `PGPASSWORD`:
+```bash
+PGPASSWORD=your_password psql -h localhost -U postgres -d etl_warehouse -f db/schema.sql
+```
+
+- Quick verification (list tables):
+```bash
+psql -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME -c "\dt"
+```
+
+Note: Ensure PostgreSQL is running and your `.env` or `config/database_config.py` contains correct credentials before running the commands. Replace `$DB_HOST`, `$DB_PORT`, `$DB_USER`, `$DB_NAME`, and `$DB_PASSWORD` with your settings.
+
 ### Step 3: Set Environment Variables
 Create a `.env` file in the `config/` folder:
 ```env
